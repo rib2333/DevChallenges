@@ -13,6 +13,21 @@ export default function Buttons() {
           <ButtonWrapper content="<Button variant='outline'/>" variant="outline" text="Default" ></ButtonWrapper>
           <ButtonWrapper hoverAndFocus content="<&:hover,&:focus/>" variant="outline" text="Default"></ButtonWrapper>
         </div>
+        <div className="flex mt-[47px]">
+          <ButtonWrapper content="<Button variant='text'/>" variant="text" text="Default" ></ButtonWrapper>
+          <ButtonWrapper hoverAndFocus content="<&:hover,&:focus/>" variant="text" text="Default"></ButtonWrapper>
+        </div>
+        <div className="flex mt-[47px]">
+          <ButtonWrapper disableShadow  content="<Button disableShadow/>"  text="Default" ></ButtonWrapper>
+        </div>
+        <div className="flex mt-[47px]">
+          <ButtonWrapper disabled  content="<Button disabled/>"  text="Disabled" ></ButtonWrapper>
+          <ButtonWrapper disabled  content="<Button variant='text' disabled/>" variant='text' text="Disabled" ></ButtonWrapper>
+        </div>
+        <div className="flex mt-[47px] ">
+            <ButtonWrapper content="<Button color='danger'/>"color='danger' text="danger" ></ButtonWrapper>
+            <ButtonWrapper color='danger'content="-" hoverAndFocus text="danger"></ButtonWrapper>
+        </div>
         </div>
     </div>
   )
