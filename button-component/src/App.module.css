@@ -1,0 +1,15 @@
+div.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.nav{
+    width: 237px;
+    height: 100vh;
+}
+div.content{
+    flex: 1;
+}
+div.box{
+    display: flex;
+    flex-direction: column;
+}
