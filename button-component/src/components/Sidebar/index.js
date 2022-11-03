@@ -1,7 +1,7 @@
 import React from 'react'
 import MyNavLink from '../MyNavLink'
 export default function SideBar() {
-const sideBarItems = ['Colors','Typography','Buttons','Inputs','Grid'];
+const sideBarItems = ['Colors','Typography','Buttons','Inputs','Grid','About'];
   return (
     <>
     <div className="w-[237px] p-[56.5px] bg-[#FAFBFD] mr-[90px]">
